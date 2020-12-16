@@ -5,8 +5,7 @@ namespace StackQueue
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("********Welcome To Stack Program********");
+        { 
             Console.WriteLine("********Welcome To Stack Program********");
             LinkedListStack stack = new LinkedListStack();
             stack.Push(56);
