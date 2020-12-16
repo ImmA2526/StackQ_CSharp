@@ -39,6 +39,38 @@ namespace StackQueue
                 Console.WriteLine(temp.data + " ");
                 temp = temp.next;
             }
+        }
+
+        /// <summary>
+        /// U2- Pop Peek and Check IS Empty.
+        /// </summary>
+        internal void Peek()
+        {
+            if (this.top == null)
+            {
+                Console.WriteLine("Stack is Empty");
+                return;
+            }
+            Console.WriteLine("{0} is top of stack",this.top.data);
+        }
+        internal void Pop()
+        {
+            if (this.top == null)
+            {
+                Console.WriteLine("stack is empty");
+                return;
+            }
+            Console.WriteLine("value Pop {0}", this.top.data);
+            this.top = this.top.next;
+        }
+
+        internal void IsEmpty()
+        {
+            while (this.top != null)
+            {
+                Peek();
+                Pop();
+            }
         }        
     }
 }

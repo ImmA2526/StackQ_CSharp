@@ -14,6 +14,11 @@ namespace StackQueue
             stack.Push(70);
             Console.WriteLine("Inserted Elements Are ");
             stack.Display();
+            stack.Pop();
+            Console.WriteLine("After Pop.. ");
+            stack.Display();
+            stack.Peek();
+            
         }
     }
 }
