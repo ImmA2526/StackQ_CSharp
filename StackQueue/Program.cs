@@ -24,6 +24,8 @@ namespace StackQueue
             Q.EndedQueue(30);
             Q.EndedQueue(70);
             Q.Display();
+            Q.DoubleQue();
+            Q.Display();
         }
     }
 }

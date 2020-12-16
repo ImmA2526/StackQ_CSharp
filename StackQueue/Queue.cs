@@ -45,5 +45,20 @@ namespace StackQueue
             }
             Console.WriteLine("\n");
         }
+        /// <summary>
+        /// U4 Ability To Create Deque .
+        /// </summary>
+        internal void DoubleQue()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Que Empty");
+            }
+            else
+            {
+                Console.WriteLine("{0} Deque ",head.data);
+                head = head.next;
+            }
+        }
     }
 }
