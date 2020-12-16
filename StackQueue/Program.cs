@@ -7,6 +7,13 @@ namespace StackQueue
         static void Main(string[] args)
         {
             Console.WriteLine("********Welcome To Stack Program********");
+        	Console.WriteLine("********Welcome To Stack Program********");
+            LinkedListStack stack = new LinkedListStack();
+            stack.Push(56);
+            stack.Push(30);
+            stack.Push(70);
+            Console.WriteLine("Inserted Elements Are ");
+            stack.Display();
         }
     }
 }
